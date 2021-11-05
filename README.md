@@ -33,7 +33,7 @@ Operações realizadas pela pessoa candidata.
 | Descrição | Verbo | Endereço | Body |
 | --------- | ----- | -------- | ---- |
 | Criar uma nova conta | `POST` | `/accounts/create-account` | `{ name: String, email: String, password: String }` |
-| Se aplica para uma vaga existente | `POST` | `/jobs/apply/{jobId}` |
+| Se aplica para uma vaga existente | `POST` | `/jobs/apply/{jobId}` | `{ accountId: Number }` |
 
 
 ### Pessoa entrevistadora
